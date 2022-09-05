@@ -1,0 +1,3 @@
+/home/lza/code/cmake_demo/build/CMakeFiles/edit_cache.dir
+/home/lza/code/cmake_demo/build/CMakeFiles/rebuild_cache.dir
+/home/lza/code/cmake_demo/build/CMakeFiles/result.dir

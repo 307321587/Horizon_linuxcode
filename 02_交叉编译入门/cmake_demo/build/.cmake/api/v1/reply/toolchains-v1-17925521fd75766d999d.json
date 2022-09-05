@@ -1,0 +1,109 @@
+{
+	"kind" : "toolchains",
+	"toolchains" : 
+	[
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"/opt/gcc-linaro-6.5.0-2018.12-x86_64_aarch64-linux-gnu/lib/gcc/aarch64-linux-gnu/6.5.0/include",
+						"/opt/gcc-linaro-6.5.0-2018.12-x86_64_aarch64-linux-gnu/lib/gcc/aarch64-linux-gnu/6.5.0/include-fixed",
+						"/opt/gcc-linaro-6.5.0-2018.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include",
+						"/opt/gcc-linaro-6.5.0-2018.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include"
+					],
+					"linkDirectories" : 
+					[
+						"/opt/gcc-linaro-6.5.0-2018.12-x86_64_aarch64-linux-gnu/lib/gcc/aarch64-linux-gnu/6.5.0",
+						"/opt/gcc-linaro-6.5.0-2018.12-x86_64_aarch64-linux-gnu/lib/gcc/aarch64-linux-gnu",
+						"/opt/gcc-linaro-6.5.0-2018.12-x86_64_aarch64-linux-gnu/lib/gcc",
+						"/opt/gcc-linaro-6.5.0-2018.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/lib64",
+						"/opt/gcc-linaro-6.5.0-2018.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/lib",
+						"/opt/gcc-linaro-6.5.0-2018.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/lib",
+						"/opt/gcc-linaro-6.5.0-2018.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/lib"
+					],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : 
+					[
+						"gcc",
+						"gcc_s",
+						"c",
+						"gcc",
+						"gcc_s"
+					]
+				},
+				"path" : "/opt/gcc-linaro-6.5.0-2018.12-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-gcc",
+				"version" : "6.5.0"
+			},
+			"language" : "C",
+			"sourceFileExtensions" : 
+			[
+				"c",
+				"m"
+			]
+		},
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"/opt/gcc-linaro-6.5.0-2018.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/6.5.0",
+						"/opt/gcc-linaro-6.5.0-2018.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/6.5.0/aarch64-linux-gnu",
+						"/opt/gcc-linaro-6.5.0-2018.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/6.5.0/backward",
+						"/opt/gcc-linaro-6.5.0-2018.12-x86_64_aarch64-linux-gnu/lib/gcc/aarch64-linux-gnu/6.5.0/include",
+						"/opt/gcc-linaro-6.5.0-2018.12-x86_64_aarch64-linux-gnu/lib/gcc/aarch64-linux-gnu/6.5.0/include-fixed",
+						"/opt/gcc-linaro-6.5.0-2018.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include",
+						"/opt/gcc-linaro-6.5.0-2018.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include"
+					],
+					"linkDirectories" : 
+					[
+						"/opt/gcc-linaro-6.5.0-2018.12-x86_64_aarch64-linux-gnu/lib/gcc/aarch64-linux-gnu/6.5.0",
+						"/opt/gcc-linaro-6.5.0-2018.12-x86_64_aarch64-linux-gnu/lib/gcc/aarch64-linux-gnu",
+						"/opt/gcc-linaro-6.5.0-2018.12-x86_64_aarch64-linux-gnu/lib/gcc",
+						"/opt/gcc-linaro-6.5.0-2018.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/lib64",
+						"/opt/gcc-linaro-6.5.0-2018.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/lib",
+						"/opt/gcc-linaro-6.5.0-2018.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/lib",
+						"/opt/gcc-linaro-6.5.0-2018.12-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/lib"
+					],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : 
+					[
+						"stdc++",
+						"m",
+						"gcc_s",
+						"gcc",
+						"c",
+						"gcc_s",
+						"gcc"
+					]
+				},
+				"path" : "/opt/gcc-linaro-6.5.0-2018.12-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-g++",
+				"version" : "6.5.0"
+			},
+			"language" : "CXX",
+			"sourceFileExtensions" : 
+			[
+				"C",
+				"M",
+				"c++",
+				"cc",
+				"cpp",
+				"cxx",
+				"mm",
+				"mpp",
+				"CPP"
+			]
+		}
+	],
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}

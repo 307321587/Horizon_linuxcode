@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/lza/code/cmake_demo/build",
+  "command": "/opt/gcc-linaro-6.5.0-2018.12-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-g++    -g -g -o CMakeFiles/result.dir/main.cpp.o -c /home/lza/code/cmake_demo/main.cpp",
+  "file": "/home/lza/code/cmake_demo/main.cpp"
+}
+]
